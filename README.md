@@ -33,6 +33,7 @@ Design Pattern: Page Object Model (POM)
 ✔ Reusable utility methods
 
 📂 Project Structure
+```
 abhibus-test-automation
 │
 ├── tests
@@ -57,15 +58,16 @@ abhibus-test-automation
 ├── conftest.py
 ├── pytest.ini
 └── requirements.txt
+```
 📊 Test Data (Excel Driven)
 
 The framework reads test data from an Excel file containing inputs such as source, destination, travel date, and passenger details.
 
 Example:
-
+```
 Source	Destination	Date	Customer Name	Age	Mobile	Email
 Hyderabad	Bangalore	2026-04-10	Avinash	20	9989968834	avinash@gmail.com
-
+```
 This enables multiple test scenarios using different datasets.
 
 🧠 Automation Workflow
